@@ -1,6 +1,6 @@
 #include "myheadfile.h"
 int open(int (*arr)[SIZE],int size,int *score,int *hightscore){
-	FILE *p_file = fopen("SaveMap.bin","r");
+	FILE *p_file =  fopen("SaveMap.bin","r");
 	int i,j,failed = 0;
 	if(NULL == p_file){
 		printf("File open error!!\n");
